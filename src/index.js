@@ -47,3 +47,5 @@ app.use('/api/v1/auth', authRouter);
 app.listen(PORT, () => {
     console.log('listen to port ' + PORT);
 });
+
+module.exports = app;
